@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fondo animado</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="bg_animate">
+        <div class="header_nav">
+
+        </div>
+
+        <section class="banner contenedor">
+            <secrion class="banner_title">
+                <div class="contenedor">
+                    <h2>Lista de tareas</h2>
+                </div>
+
+                <div id="tareas">
+
+                </div>
+
+                <input type="text" id="agregar" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                <br>
+                <button onclick="agregarDuenio()" class="btn btn-success btn-block active">Agregar</button>
+
+                <button onclick="BuscarTarea()" class="btn btn-dark btn-block" active>Buscar tarea que se realizo mas rapido</button>
+            </secrion>
+            <div class="banner_img">
+                <img src="lista.png" alt="">
+            </div>
+        </section>
+
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+    </header>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="codigo.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
